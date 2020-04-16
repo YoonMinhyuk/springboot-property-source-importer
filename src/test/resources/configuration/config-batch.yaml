@@ -1,0 +1,24 @@
+batch:
+  job-name: "default-job"
+
+---
+spring:
+  profiles: local
+
+batch:
+  job-name: "local-job"
+
+---
+spring:
+  profiles: dev
+
+batch:
+  job-name: "dev-job"
+
+
+---
+spring:
+  profiles: prod
+
+batch:
+  job-name: "prod-job"

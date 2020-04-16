@@ -1,0 +1,23 @@
+api:
+  ping: "default"
+
+---
+spring:
+  profiles: local
+
+api:
+  ping: "local"
+
+---
+spring:
+  profiles: dev
+
+api:
+  ping: "dev"
+
+---
+spring:
+  profiles: prod
+
+api:
+  ping: "prod"

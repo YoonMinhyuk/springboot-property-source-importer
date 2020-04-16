@@ -6,6 +6,7 @@ plugins {
 
 group = 'minhyuk.springboot'
 version = '1.0.0'
+
 sourceCompatibility = '1.8'
 
 configurations {
@@ -28,4 +29,12 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+   enabled = true
 }

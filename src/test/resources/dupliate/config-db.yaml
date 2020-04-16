@@ -1,0 +1,23 @@
+db:
+  name: h2
+
+---
+spring:
+  profiles: local
+
+db:
+  name: mysql
+
+---
+spring:
+  profiles: dev
+
+db:
+  name: postgresql
+
+---
+spring:
+  profiles: prod
+
+db:
+  name: oracle
